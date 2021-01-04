@@ -17,7 +17,7 @@ instructor: ["instructor one", "instructor two"] # boxed, comma-separated list o
 helper: ["helper one", "helper two"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["library-collaboratory@ucsb.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/2020-01-22-SWC-Git-online  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite: "135408018027" # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -30,6 +30,14 @@ If the value is not 'true', 'false', 'null', or a number, please use
 double quotation marks around the value, unless specified otherwise.
 And run 'make workshop-check' *before* committing to make sure that changes are good.
 {% endcomment %}
+
+
+<h2><strong>Registration for this workshop opens on Friday, January 8 at 8:00 am PST</strong></h2>
+<a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=UCSB+Carpentry%3A+&iso=20201216T08&p1=1050">Check what time registration opens in your time 
+zone</a>
+
+
+{% comment %}
 
 
 {% comment %}
@@ -389,7 +397,6 @@ For online workshops, the section below provides:
 - installation instructions for the Zoom client
 - recommendations for setting up Learners' workspace so they can follow along
   the instructions and the videoconferencing
-
 If you do not use Zoom for your online workshop, edit the file
 `_includes/install_instructions/videoconferencing.html`
 to include the relevant installation instrucctions.
