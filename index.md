@@ -390,8 +390,14 @@ please preview your site before committing, and make sure to run
 For online workshops, the section below provides:
 - installation instructions for the Zoom client
 - recommendations for setting up Learners' workspace so they can follow along
+<<<<<<< HEAD
   the instructions and the videoconferencing.
 - If you do not use Zoom for your online workshop, edit the file
+=======
+  the instructions and the videoconferencing
+  
+If you do not use Zoom for your online workshop, edit the file
+>>>>>>> fe37f43bcab45bffeaa74218ddf83846200c557f
 `_includes/install_instructions/videoconferencing.html`
 to include the relevant installation instrucctions.
 {% endcomment %}
