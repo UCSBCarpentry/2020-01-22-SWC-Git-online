@@ -37,12 +37,6 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 zone</a>
 
 
-{% comment %}
-
-
-{% comment %}
-{% endcomment %}
-
 
 {% comment %}
 Check DC curriculum
@@ -396,8 +390,8 @@ please preview your site before committing, and make sure to run
 For online workshops, the section below provides:
 - installation instructions for the Zoom client
 - recommendations for setting up Learners' workspace so they can follow along
-  the instructions and the videoconferencing
-If you do not use Zoom for your online workshop, edit the file
+  the instructions and the videoconferencing.
+- If you do not use Zoom for your online workshop, edit the file
 `_includes/install_instructions/videoconferencing.html`
 to include the relevant installation instrucctions.
 {% endcomment %}
