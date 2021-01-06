@@ -180,6 +180,8 @@ Modify the block below if there are any special requirements.
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% endif %}
   They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+  <br>
+  <strong>Participants should be familiar with Command-line programming with Bash-shell (either previous experience or attend the January 21st workshop)</strong>
 </p>
 
 {% comment %}
